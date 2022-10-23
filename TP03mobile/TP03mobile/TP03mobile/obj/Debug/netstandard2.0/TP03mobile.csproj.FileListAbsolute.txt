@@ -1,0 +1,15 @@
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\TP03mobile.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\TP03mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\TP03mobile.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\TP03mobile.AssemblyInfo.cs
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\TP03mobile.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\bin\Debug\netstandard2.0\TP03mobile.deps.json
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\bin\Debug\netstandard2.0\TP03mobile.dll
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\bin\Debug\netstandard2.0\ref\TP03mobile.dll
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\bin\Debug\netstandard2.0\TP03mobile.pdb
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\TP03mobile.dll
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\ref\TP03mobile.dll
+C:\Users\Gabriel\Desktop\PDMI6\TP03mobile\TP03mobile\TP03mobile\obj\Debug\netstandard2.0\TP03mobile.pdb

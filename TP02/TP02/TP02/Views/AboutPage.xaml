@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="TP02.Views.AboutPage"
+Title="">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <StackLayout Orientation="Vertical">
+                <Label Text="Style Resources" FontSize="25" TextColor="Blue" HorizontalTextAlignment="Center"/>
+                <Button x:Name="btnPadrao" Text="Estilo padrão" BackgroundColor="LightGray" TextColor="Black" Clicked="BtnPadrao_Clicked"/>
+                <Button x:Name="btnDinamico" Text="Estilo dinâmico" BackgroundColor="LightGray" TextColor="Black" Clicked="BtnDinamico_Clicked"/>
+                <Button x:Name="btnEt" Text="Estilo event triggers" BackgroundColor="LightGray" TextColor="Black" Clicked="BtnEt_Clicked"/>
+                <Button x:Name="btnGlobal" Text="Estilo global" BackgroundColor="LightGray" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Passar parâmetro" FontSize="25" TextColor="Blue" HorizontalTextAlignment="Center"/>
+                <Button x:Name="btnHome" Text="Home" BackgroundColor="LightGray" TextColor="Black" Clicked="BtnHome_Clicked"/>
+                <Button x:Name="btnMc" Text="Messaging Center" BackgroundColor="LightGray" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="ListView" FontSize="25" TextColor="Blue" HorizontalTextAlignment="Center"/>
+                <Button x:Name="btnSimples" Text="Simples" BackgroundColor="LightGray" TextColor="Black" Clicked="BtnSimples_Clicked"/>
+                <Button x:Name="btnCc" Text="Classe complexa" BackgroundColor="LightGray" TextColor="Black"/>
+                <Button x:Name="btnProduto" Text="Produto" BackgroundColor="LightGray" TextColor="Black"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.Views.HomeForm">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Cadastro de contato" TextColor="Black" FontSize="20" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="Nome" Placeholder="Nome" PlaceholderColor="Black" TextColor="Black" BackgroundColor="LightGray"/>
+            <Entry x:Name="Idade" Placeholder="Idade" PlaceholderColor="Black" TextColor="Black" BackgroundColor="LightGray"/>
+            <Entry x:Name="Profissao" Placeholder="Profissão" PlaceholderColor="Black" TextColor="Black" BackgroundColor="LightGray"/>
+            <Entry x:Name="Pais" Placeholder="País" PlaceholderColor="Black" TextColor="Black" BackgroundColor="LightGray"/>
+            <Button x:Name="Cadastrar" Text="Cadastrar" BackgroundColor="DodgerBlue" TextColor="White" Clicked="BtnCadastrar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

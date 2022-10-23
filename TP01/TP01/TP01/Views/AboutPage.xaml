@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01.Views.AboutPage"
+             xmlns:vm="clr-namespace:TP01.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+        
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Label x:Name="app"
+                       Text="Aplicação teste"
+                       FontSize="Large"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="Center" />
+
+                <Entry x:Name="textId"
+                       Placeholder="Id"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand" 
+                       PlaceholderColor="Black"
+                       BackgroundColor="LightGray"/>
+
+                <Entry x:Name="textPass"
+                       Placeholder="Password"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       PlaceholderColor="Black"
+                       BackgroundColor="LightGray"/>
+                
+                <Button x:Name="buttonOk" 
+                        Text="OK"
+                        VerticalOptions="CenterAndExpand"
+                        Clicked="Confirmar"
+                        BackgroundColor="LightGray"
+                        TextColor="Red" />
+                
+                <Button x:Name="buttonLimpar" 
+                        Text="Limpar"
+                        VerticalOptions="CenterAndExpand"
+                        Clicked="Limpar"
+                        BackgroundColor="LightGray"
+                        TextColor="Red" />
+
+                <Button x:Name="buttonCreditos" 
+                        Text="Créditos"
+                        VerticalOptions="CenterAndExpand"
+                        Clicked="Creditos"
+                        BackgroundColor="LightGray"
+                        TextColor="Red" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

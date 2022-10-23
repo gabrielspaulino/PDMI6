@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.Views.ListViewSimples"
+             Title="Fonte simples">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="  Desenvolvimento de aplicativos com xamarin" TextColor="Red" FontSize="15" Padding="10"/>
+            <Label Text="  Introdução a Big Data e Analytics" TextColor="Red" FontSize="15" Padding="10"/>
+            <Label Text="  Certificação FOGAF Nível 1" TextColor="Red" FontSize="15" Padding="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
