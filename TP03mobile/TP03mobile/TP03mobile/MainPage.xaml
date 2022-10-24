@@ -4,13 +4,21 @@
              x:Class="TP03mobile.MainPage">
 
     <StackLayout>
-        <ListView x:Name="ListLogin">
+        <Label Text="Countries" HorizontalOptions="Center" FontSize="30"></Label>
+        <ListView x:Name="ListCountry">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout>
-                            <Label Text="{Binding Email}"></Label>
-                            <Label Text="{Binding Password}"></Label>
+                        <StackLayout Spacing="0">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="{Binding Value}" FontSize="17"></Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="Continent: "></Label>
+                                <Label Text="{Binding Continent_code}"></Label>
+                                <Label Text="| Currency: "></Label>
+                                <Label Text="{Binding Currency}"></Label>
+                            </StackLayout>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
