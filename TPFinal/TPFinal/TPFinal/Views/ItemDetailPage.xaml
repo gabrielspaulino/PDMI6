@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TPFinal.Views.ItemDetailPage"
+             Title="{Binding Title}">
+
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="Nome:" FontSize="Medium" />
+        <Label Text="{Binding Nome}" FontSize="Small"/>
+        <Label Text="Peso:" FontSize="Medium" />
+        <Label Text="{Binding Peso}" FontSize="Small"/>
+        <Label Text="Nome do Produtor:" FontSize="Medium" />
+        <Label Text="{Binding NomeProdutor}" FontSize="Small"/>
+        <Label Text="Email do Produtor:" FontSize="Medium" />
+        <Label Text="{Binding EmailProdutor}" FontSize="Small"/>
+        <Label Text="NCM:" FontSize="Medium" />
+        <Label Text="{Binding Ncm}" FontSize="Small"/>
+    </StackLayout>
+
+</ContentPage>

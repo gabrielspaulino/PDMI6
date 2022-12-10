@@ -998,11 +998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\TP02\\TP02\\TP02.iOS\\TP02.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\PDMI6\\TP02\\TP02\\TP02.iOS\\TP02.iOS.csproj",
       "projectName": "TP02.iOS",
-      "projectPath": "C:\\Users\\Gabriel\\Desktop\\TP02\\TP02\\TP02.iOS\\TP02.iOS.csproj",
+      "projectPath": "C:\\Users\\Gabriel\\Desktop\\PDMI6\\TP02\\TP02\\TP02.iOS\\TP02.iOS.csproj",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Desktop\\TP02\\TP02\\TP02.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Gabriel\\Desktop\\PDMI6\\TP02\\TP02\\TP02.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1025,8 +1025,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Gabriel\\Desktop\\TP02\\TP02\\TP02\\TP02.csproj": {
-              "projectPath": "C:\\Users\\Gabriel\\Desktop\\TP02\\TP02\\TP02\\TP02.csproj"
+            "C:\\Users\\Gabriel\\Desktop\\PDMI6\\TP02\\TP02\\TP02\\TP02.csproj": {
+              "projectPath": "C:\\Users\\Gabriel\\Desktop\\PDMI6\\TP02\\TP02\\TP02\\TP02.csproj"
             }
           }
         }

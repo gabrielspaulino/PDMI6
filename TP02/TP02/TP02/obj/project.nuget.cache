@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YpCDRDmGZd7TN8+gUDIGfViPxv8m8PKX4ooqMBhmC6e88MDlTrO4oIqQVyd9UZUTFYVAGJmUSN0AylJNoWAbyw==",
+  "dgSpecHash": "MbvPV3zmX0Lokjz1mpuid0YWbHs5zZK/l2l0GRo0Ph1GviP4nUl0RIfYwfbEsIPvWGWWpgsuHPx0KDf1lnJQyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriel\\Desktop\\TP02\\TP02\\TP02\\TP02.csproj",
+  "projectFilePath": "C:\\Users\\Gabriel\\Desktop\\PDMI6\\TP02\\TP02\\TP02\\TP02.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
